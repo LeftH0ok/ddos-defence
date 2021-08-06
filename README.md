@@ -1,4 +1,4 @@
-# ddos
+# ddos defence
 auto generate firewall rules by 'netstat -antulp'
 
 
