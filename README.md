@@ -3,6 +3,7 @@ auto generate firewall rules by 'netstat -antulp'
 
 
 #how to use 
+```sh
 [root@VM_77_147_centos ~]# sh ddos.sh 
 ------------------------------------------------------
       1 162.0.208.1
@@ -26,3 +27,4 @@ firewall-cmd --permanent --add-rich-rule='rule family=ipv4 source address=120.41
 
 firewall-cmd --reload
 ------------------------------------------------------
+```
